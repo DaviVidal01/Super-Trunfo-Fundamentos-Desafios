@@ -1,7 +1,7 @@
 # 🃏 Super Trunfo - Fundamentos em C  
 ### Desafios de Programação - Estácio | Engenharia de Software (EAD)
 
-Este repositório contém a resolução de **três desafios práticos** do curso de **Engenharia de Software (EAD)** da **Universidade Estácio de Sá**, focados no desenvolvimento de habilidades com a linguagem **C**.
+Este repositório contém a resolução de **três desafios práticos** do curso de **Engenharia de Software (EAD)** da **Universidade Estácio de JF**, focados no desenvolvimento de habilidades com a linguagem **C**.
 
 Os desafios simulam um jogo de **Super Trunfo**, envolvendo cadastro, cálculos e comparações entre cartas que representam cidades. Eles são organizados por níveis de dificuldade:
 
