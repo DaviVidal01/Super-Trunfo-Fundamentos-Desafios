@@ -1,92 +1,42 @@
-# 🃏 Desafio: Nível Novato
+# 🃏 Super Trunfo - Fundamentos em C  
+### Desafios de Programação - Estácio | Engenharia de Software (EAD)
 
-## Criando as Cartas do Super Trunfo 🇧🇷
+Este repositório contém a resolução de **três desafios práticos** do curso de **Engenharia de Software (EAD)** da **Universidade Estácio de Sá**, focados no desenvolvimento de habilidades com a linguagem **C**.
 
-Neste primeiro nível, seu objetivo é construir a base do jogo **Super Trunfo de Países**, desenvolvendo um sistema em C para **cadastrar as cartas com informações sobre cidades**.
-
-Você irá praticar:
-
-* 📥 Leitura de dados do usuário
-* 💾 Armazenamento em variáveis
-* 🖨️ Exibição formatada das informações na tela
+Os desafios simulam um jogo de **Super Trunfo**, envolvendo cadastro, cálculos e comparações entre cartas que representam cidades. Eles são organizados por níveis de dificuldade:
 
 ---
 
-## ✅ O que você vai fazer
+## 📁 Estrutura do Repositório
 
-Criar um programa em **C** que permita ao usuário inserir os dados de **duas cartas do Super Trunfo**. Para cada carta, o usuário deverá fornecer:
+O repositório está dividido em três pastas, uma para cada nível de desafio:
 
-* 🏳️ **Estado**: Uma letra de 'A' a 'H' (`char`)
-* 🆔 **Código da Carta**: Letra do estado + número de 01 a 04 (ex: `A01`, `B03`) (`char[]`)
-* 🏙️ **Nome da Cidade**: (`char[]`)
-* 👥 **População**: Número de habitantes (`int`)
-* 📏 **Área (km²)**: (`float`)
-* 💰 **PIB**: Produto Interno Bruto (`float`)
-* 🗺️ **Pontos Turísticos**: Quantidade de pontos turísticos (`int`)
+### 🧩 `Nivel-Novato/`
+Desafio introdutório onde o objetivo é **cadastrar e exibir informações de duas cartas**.  
+Foco: entrada e saída de dados, uso de variáveis simples.
 
----
+### ⚙️ `Nivel-Aventureiro/`
+Desafio intermediário, com **cálculo de densidade populacional e PIB per capita**.  
+Foco: operações matemáticas, uso de `float` e conversões de tipo.
 
-## 📋 Exemplo de Saída Esperada
-
-```txt
-Carta 1:
-Estado: A
-Código: A01
-Nome da Cidade: São Paulo
-População: 12325000
-Área: 1521.11 km²
-PIB: 699.28 bilhões de reais
-Número de Pontos Turísticos: 50
-
-Carta 2:
-Estado: B
-Código: B02
-Nome da Cidade: Rio de Janeiro
-População: 6748000
-Área: 1200.25 km²
-PIB: 300.50 bilhões de reais
-Número de Pontos Turísticos: 30
-```
+### 🧠 `Nivel-Mestre/`
+Desafio avançado, que adiciona a **comparação entre as cartas** e o cálculo do **Super Poder**, uma métrica baseada em múltiplos atributos.  
+Foco: lógica condicional, operadores relacionais, conversão de tipos e comparação de dados.
 
 ---
 
-## 🛠️ Requisitos Funcionais
+## 📦 Conteúdo de Cada Pasta
 
-* 📌 Ler corretamente os dados de **duas cartas** via teclado
-* 📌 Armazenar os dados em variáveis apropriadas
-* 📌 Exibir as informações de forma **organizada e legível**
+Cada pasta contém:
 
----
-
-## ✨ Requisitos Não Funcionais
-
-* 🎯 **Usabilidade**: Instruções claras para o usuário
-* 🧹 **Legibilidade**: Código bem indentado, comentado e com nomes significativos
-* ✅ **Corretude**: Sem erros de compilação ou execução
+- `desafio.md` com a descrição detalhada do desafio.
+- `super_trunfo.c` — Código-fonte em C.
+- Um arquivo de execução, como `super_trunfo.exe` (para Windows).
 
 ---
 
-## 🔎 Simplificações do Desafio
+## 🎓 Sobre o Projeto
 
-* 🃏 Apenas **duas cartas**
-* 📖 Foco apenas em leitura, armazenamento e exibição
-* 🔁 **Não usar** loops (`for`, `while`) ou decisões (`if`, `else`)
-* 🧱 Código em **sequência simples de instruções**
+Este trabalho foi desenvolvido como parte das atividades avaliativas da disciplina de **Fundamentos de Programação** no curso de **Engenharia de Software (EAD)** pela **Estácio**.
 
----
-
-## 🚀 Como Entregar seu Projeto
-
-1. Crie um **repositório público** no GitHub
-2. Crie um arquivo chamado `super_trunfo.c` com seu código
-3. Compile e **teste localmente**
-4. Faça **commit e push** das alterações
-5. Envie o **link do repositório** pela plataforma SAVA
-
----
-
-### 📚 Lembre-se:
-
-Este é **apenas o primeiro passo**!
-Concentre-se em dominar os fundamentos de **entrada, processamento e saída de dados** em C.
-Nos próximos níveis, você irá evoluir ainda mais seu projeto com novas funcionalidades! 💡
+O projeto visa aplicar na prática os principais conceitos da linguagem C, com desafios progressivos que desenvolvem o raciocínio lógico e a organização de dados em memória.
